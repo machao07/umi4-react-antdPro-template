@@ -19,15 +19,10 @@ git commit --no-verify -m 'xxxx'
 
 ### 参考文献：
 
-#### AntD-Pro 官方文档
+- [Ant Design Pro 官方文档](https://pro.ant.design). 
 
-[Ant Design Pro](https://pro.ant.design). 
+- [Umi 4 官方文档](https://umijs.org/docs/tutorials/getting-started)
 
-#### Umi 4 官方文档
-[UmiJs 4](https://umijs.org/docs/tutorials/getting-started)
-
-#### openAPI 
-
-[openAPI](https://pro.ant.design/zh-cn/docs/openapi/)
+- [openAPI 官方文档](https://pro.ant.design/zh-cn/docs/openapi/)
 
 
