@@ -1,17 +1,18 @@
-#### 项目启动
+### 项目启动
 
 ```bash
 yarn
+
 yarn start
 ```
 
-#### 生成Api接口
+### 生成Api
 
 ```bash
 yarn openapi
 ```
 
-#### commit 绕开 eslint
+### commit 绕开 eslint
 
 ```bash
 git commit --no-verify -m 'xxxx'
