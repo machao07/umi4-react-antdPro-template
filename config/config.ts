@@ -79,7 +79,7 @@ export default defineConfig({
      */
     title: '',
     layout: {
-        locale: true,
+        locale: false,
         ...defaultSettings,
     },
     /**
