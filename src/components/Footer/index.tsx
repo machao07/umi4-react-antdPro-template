@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   const intl = useIntl();
   const defaultMessage = intl.formatMessage({
     id: 'app.copyright.produced',
-    defaultMessage: '中数信',
+    defaultMessage: 'Ant Design Pro',
   });
 
   const currentYear = new Date().getFullYear();
