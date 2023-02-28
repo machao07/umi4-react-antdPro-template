@@ -144,6 +144,11 @@ export default defineConfig({
             projectName: 'swagger',
         },
     ],
+    /**
+     * @name 项目部署配置
+     * @description 当不在根目录，部署在子目录/scop/中时
+     */
+    publicPath: REACT_APP_ENV === 'dev' ? '/' : '/scop/',
     mfsu: {
         strategy: 'normal',
     },
