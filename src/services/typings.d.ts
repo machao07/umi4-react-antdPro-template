@@ -1,21 +1,24 @@
 declare namespace AppModels {
-  export type CurrentUser = {
-    name?: string;
-    avatar?: string;
-    roles?: string[];
-  };
+    // 登录接口返回字段定义
+    export type UserData = API.SysUserDTO;
 
-  export type LoginResult = {
-    status?: string;
-    type?: string;
-    currentAuthority?: string;
-  };
+    export type CurrentUser = {
+        name?: string;
+        avatar?: string;
+        data?: UserData
+    };
 
-  export type LoginParams = {
-    accountType: 'acount' | 'phone';
-    account?: string;
-    phone?: string;
-    pwassword?: string;
-    verifyCode?: string;
-  };
+    export type LoginResult = {
+        status?: 'ok' | 'error';
+        errorTips?: string;
+        currentUser?: CurrentUser;
+    };
+
+    export type LoginParams = {
+        accountType: 'acount' | 'phone';
+        account?: string;
+        phone?: string;
+        pwassword?: string;
+        verifyCode?: string;
+    };
 }
